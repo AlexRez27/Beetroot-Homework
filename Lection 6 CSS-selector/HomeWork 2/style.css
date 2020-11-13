@@ -2,6 +2,7 @@
     font-family: TrebuchetMS;
     src: url(fonts/TrebuchetMS.ttf);  /*Не нашел шрифт в woff формате*/
    }
+   
 *{transition: all .1s ease-in;}  
 
 header{
@@ -43,8 +44,6 @@ ul{
     padding: 0px;
 }
 li{
-    height: 10%;
-    padding:20px 10px 20px 0px;
     color:#ffffff;
     font-family:Arial;
     display:block;
@@ -66,11 +65,12 @@ li:active{
 label{
      width:90% ;
      display:inline-block;
+     padding:20px 0px 20px 0px;
  } 
 span{
     font-size: 12px;
     color: #BFC5CD;
-    margin:0 auto;
+
  }
 span::before{
      content:"( "
@@ -78,7 +78,8 @@ span::before{
 span::after{
     content:" )"
 } 
-input[type=checkbox]:checked + label,input[type=checkbox]:checked + label> span
+input[type=checkbox]:checked + label,
+input[type=checkbox]:checked + label> span
     {
     color: #A19FB5;
     text-decoration-line: line-through;
