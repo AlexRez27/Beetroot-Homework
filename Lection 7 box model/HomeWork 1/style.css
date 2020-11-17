@@ -82,10 +82,14 @@ section{
     overflow:auto;
     font-size: 0; 
 }
-section:hover{
+section:hover {
     color:#ffffff;
     background-color: #0ec8cb;
 }
+section:hover>.diamond{
+    background-color:#0ec8cb;
+}
+
 p{
     display: inline-block;
     font-size: 14px;
