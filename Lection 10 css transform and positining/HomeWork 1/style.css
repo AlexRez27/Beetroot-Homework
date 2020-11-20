@@ -47,6 +47,7 @@ h1{
 }
 .content:hover{
     transform: rotate(30deg) scale(1.1);
+    transition: transform 2s;
 }
 .content-1{
     background-image: url(images/img-1.png);
@@ -123,4 +124,5 @@ span{
 }
 .view:hover{
     transform: translate(110%, 0);
+
 }
