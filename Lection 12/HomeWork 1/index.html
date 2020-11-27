@@ -22,16 +22,23 @@
                 <form action="#" class="sectionform__form" method="GET">
                     <input required class="input" type="text" name="name" placeholder="Погоняло" minlength="3">
                     <br>
-                    <input required oninvalid="this.setCustomValidity('Ти шо, мило не можеш нормально ввести??!!')"
-                        class="input" type="email" name="registration_email" id="email" placeholder="Мило">
+                    <input class="input" type="email" name="registration_email" id="email" placeholder="Мило" required>
                     <br>
                     <input required class="input" type="tel" name="tel" placeholder="Номерок для воєнкомата"
-                        oninvalid="this.setCustomValidity('А шо я воєнкому скажу??! Номерок введи нормально!!')"
                         data-mask="+38(000)-000-00-00" minlength="18">
                     <br>
                     <textarea class="input textarea" name="message"
                         placeholder="Якась туфта яку ніхто все одно читати не буде. Але ти пиши."></textarea><br>
                     <input class="submit" type="submit" value="Послати на ***">
+
+                    <select required>
+                        <option value="" selected disabled class="label"> Fruits</option>
+                        <option value="Apples">Apples</option>
+                        <option value="Pineapples">Pineapples</option>
+                        <option value="Chocklate">Chocklate</option>
+                        <option value="Pancakes">Pancakes</option>
+                    </select>
+
                 </form>
             </section>
             <section class="info">
