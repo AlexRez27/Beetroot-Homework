@@ -7,7 +7,7 @@
     background-image: url(images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain, cover;
+    background-size: cover;
     // min-height: 1072px;
     text-align: center;
     @include flex(column, center, center);
@@ -16,13 +16,14 @@
     font-size: 0;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 20%;
+    padding-bottom: 3%;
     &__container {
-        @include svg-container(7%, 11%);
+        @include svg-container(17%, 11%);
+        margin-top: 11%;
     }
     &__logo {
-        @include svg(25%);
-        transform: scale(2.5);
+        @include svg(50%);
+        // transform: scale(2.5);
         &-1,
         &-2 {
             fill: none;
