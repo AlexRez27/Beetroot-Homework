@@ -4,9 +4,8 @@
         @include svg-container(7%, 11%);
     }
     &__logo {
-        @include svg(25%);
-        left: -11%;
-        transform: scale(2.5);
+        @include svg(50%);
+        left: -18%;
         vertical-align: middle;
         &-1,
         &-2 {
@@ -36,6 +35,7 @@
         font-size: 2vw;
         vertical-align: middle;
         position: absolute;
-        left: 42%;
+        left: 36%;
+        top: 12%;
     }
 }

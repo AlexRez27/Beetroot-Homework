@@ -20,7 +20,7 @@
   background-image: url(images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain, cover;
+  background-size: cover;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -31,23 +31,23 @@
   font-size: 0;
   margin: 0 auto;
   position: relative;
-  padding-bottom: 20%;
+  padding-bottom: 3%;
 }
 .header__container {
   position: relative;
   height: 0;
   width: 100%;
   padding: 0;
-  padding-bottom: 7%;
+  padding-bottom: 17%;
+  margin-top: 11%;
   margin-top: 11%;
 }
 .header__logo {
   position: absolute;
-  height: 25%;
+  height: 50%;
   width: 100%;
   left: 0;
   top: 0;
-  transform: scale(2.5);
 }
 .header__logo-1, .header__logo-2 {
   fill: none;
@@ -306,12 +306,11 @@
 }
 .footer__logo {
   position: absolute;
-  height: 25%;
+  height: 50%;
   width: 100%;
   left: 0;
   top: 0;
-  left: -11%;
-  transform: scale(2.5);
+  left: -18%;
   vertical-align: middle;
 }
 .footer__logo-1, .footer__logo-2 {
@@ -334,6 +333,7 @@
   font-size: 2vw;
   vertical-align: middle;
   position: absolute;
-  left: 42%;
+  left: 36%;
+  top: 12%;
 }
 /*# sourceMappingURL=style.css.map */
