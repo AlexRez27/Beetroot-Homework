@@ -45,20 +45,23 @@ body {
         }
     }
     &__price {
-        font-size: 5vmax;
+        // font-size: _ie(5);
+        font-size: calc(5 * (1vw + 1vh - 1vmin));
         padding-top: 40px;
         font-family: BebasNeue-Thin, sans-serif;
     }
     &__price:before {
         content: "$";
         font-family: BebasNeue-Thin, sans-serif;
-        font-size: 2.5vmax;
+        // font-size: _ie(2.5);
+        font-size: calc(2.5 * (1vw + 1vh - 1vmin));
         vertical-align: super;
         padding-top: 0;
     }
     &__price:after {
         content: "/hr";
-        font-size: 1vmax;
+        // font-size: _ie(1);
+        font-size: calc(1 * (1vw + 1vh - 1vmin));
         // vertical-align: sub;
         font-family: BebasNeue-Light;
     }
@@ -78,7 +81,8 @@ body {
         // }
     }
     &__benefits {
-        font-size: 1.2vmax;
+        // font-size: _ie(1.2);
+        font-size: calc(1.2 * (1vw + 1vh - 1vmin));
         font-family: Roboto-Light;
         color: #181818;
         padding-left: 0;
@@ -190,7 +194,8 @@ body {
     position: absolute;
     top: 0%;
     left: 0%;
-    font-size: 1vmax;
+    // font-size: _ie(1);
+    font-size: calc(1 * (1vw + 1vh - 1vmin));
     font-family: BebasNeue-Regular, sans-serif;
     letter-spacing: 0.08em;
     background-color: #3b4040;
