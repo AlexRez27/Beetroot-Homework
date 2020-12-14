@@ -1,22 +1,22 @@
 @font-face {
   font-family: BebasNeue-Bold;
-  src: url(fonts/bebas_neue/BebasNeue-Bold.otf);
+  src: url(fonts/bebas_neue/bebasneue-bold-webfont.woff);
 }
 @font-face {
   font-family: BebasNeue-Book;
-  src: url(fonts/bebas_neue/BebasNeue-Book.otf);
+  src: url(fonts/bebas_neue/bebasneue-book-webfont.woff);
 }
 @font-face {
   font-family: BebasNeue-Light;
-  src: url(fonts/bebas_neue/BebasNeue-Light.otf);
+  src: url(fonts/bebas_neue/bebasneue-light-webfont.woff);
 }
 @font-face {
   font-family: BebasNeue-Regular;
-  src: url(fonts/bebas_neue/BebasNeue-Regular.otf);
+  src: url(fonts/bebas_neue/bebasneue-regular-webfont.woff);
 }
 @font-face {
   font-family: BebasNeue-Thin;
-  src: url(fonts/bebas_neue/BebasNeue-Thin.otf);
+  src: url(fonts/bebas_neue/bebasneue-thin-webfont.woff);
 }
 @font-face {
   font-family: Roboto-Light;
@@ -75,20 +75,20 @@ body {
   position: relative;
 }
 .tarif__price {
-  font-size: 5vmax;
+  font-size: calc(5 * (1vw + 1vh - 1vmin));
   padding-top: 40px;
   font-family: BebasNeue-Thin, sans-serif;
 }
 .tarif__price:before {
   content: "$";
   font-family: BebasNeue-Thin, sans-serif;
-  font-size: 2.5vmax;
+  font-size: calc(2.5 * (1vw + 1vh - 1vmin));
   vertical-align: super;
   padding-top: 0;
 }
 .tarif__price:after {
   content: "/hr";
-  font-size: 1vmax;
+  font-size: calc(1 * (1vw + 1vh - 1vmin));
   font-family: BebasNeue-Light;
 }
 .tarif__name {
@@ -106,7 +106,7 @@ body {
   margin: 3% 0% 7% 0;
 }
 .tarif__benefits {
-  font-size: 1.2vmax;
+  font-size: calc(1.2 * (1vw + 1vh - 1vmin));
   font-family: Roboto-Light;
   color: #181818;
   padding-left: 0;
@@ -236,7 +236,7 @@ body {
   position: absolute;
   top: 0%;
   left: 0%;
-  font-size: 1vmax;
+  font-size: calc(1 * (1vw + 1vh - 1vmin));
   font-family: BebasNeue-Regular, sans-serif;
   letter-spacing: 0.08em;
   background-color: #3b4040;

@@ -18,3 +18,10 @@
         @content;
     }
 }
+// @mixin _IE($IEViewMax) {
+//     font-size: calc($IEViewMax * (1vw + 1vh - 1vmin));
+// }
+// @function _ie($value) {
+//     $font-size: calc($value * (1vw + 1vh - 1vmin));
+//     @return $font-size;
+// }
