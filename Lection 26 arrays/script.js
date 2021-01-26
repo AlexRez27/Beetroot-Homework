@@ -304,8 +304,8 @@ function sortArrayTask4Size() {
 function sortArrayTask4Faculty() {
     function sortArrayFaculty(ar) {
         ar.sort((a, b) => {
-            let A = a.faculty.toUpperCase();
-            let B = b.faculty.toUpperCase();
+            let A = a.name.toUpperCase();
+            let B = b.name.toUpperCase();
             if (A > B) {
                 return 1
             } else if (B > A) {
