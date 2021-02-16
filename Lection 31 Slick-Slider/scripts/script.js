@@ -53,10 +53,10 @@
 // })
 $('.slick').slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     arrows: true,
     prevArrow: $(".slider__prev"),
     nextArrow: $(".slider__next"),
