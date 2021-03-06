@@ -68,6 +68,9 @@ function cleanstyles() {
 function cleanhtml() {
     return del("dist/**/*.html", { force: true })
 }
+function cleanjs() {
+    return del("dist/js/*.js", { force: true })
+}
 function build() {
     return src([
         "app/imgo/*",
@@ -85,7 +88,7 @@ exports.minimg = minimization;
 exports.cleanimg = cleanimg;
 exports.build = build;
 
-exports.reopimg = series(cleanimg, cleanstyles, cleanhtml, minimization)
+exports.reopimg = series(cleanimg, cleanstyles, cleanhtml, cleanjs, minimization)
 
 exports.default = parallel(styles, js, browserSync, watching)
 // "node_modules/jquery/dist/jquery.min.js"
