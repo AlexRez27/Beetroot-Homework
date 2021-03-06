@@ -73,6 +73,7 @@ function build() {
         "app/imgo/*",
         "app/styles/css/*",
         "app/**/*.html",
+        "app/js/main.js"
     ], { base: "app" })
         .pipe(dest("dist"))
 }
